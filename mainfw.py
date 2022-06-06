@@ -13,10 +13,10 @@ def setcoinmoney(): # 비트코인 가격 갱신 함수
     while isrun:
         if random.randrange(2)==0:
             coinmoney=int(coinmoney*1.08)
-            print("\033[1m"+"\033[31m"+"▲"+"비트코인의 가격 : " + str(coinmoney) +  ", 보유 비트코인의 수 : " + str(haveconin)+ "개" + ", 돈 : " + str(usermoney))
+            print("\033[1m"+"\033[31m"+"▲ "+"비트코인의 가격 : " + str(coinmoney) +  ", 보유 비트코인의 수 : " + str(haveconin)+ "개" + ", 돈 : " + str(usermoney))
         else:
             coinmoney=int(coinmoney*0.92)
-            print("\033[1m"+"\033[34m"+"▼"+"비트코인의 가격 : " + str(coinmoney) +  ", 보유 비트코인의 수 : " + str(haveconin)+ "개" + ", 돈 : " + str(usermoney))
+            print("\033[1m"+"\033[34m"+"▼ "+"비트코인의 가격 : " + str(coinmoney) +  ", 보유 비트코인의 수 : " + str(haveconin)+ "개" + ", 돈 : " + str(usermoney))
         sleep(1)
 
 
